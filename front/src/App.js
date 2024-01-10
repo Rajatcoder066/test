@@ -1,14 +1,16 @@
 import React from 'react'
+import AddName from './component/AddName';
+import AddList from './component/AddList';
+import AddMem from './component/AddMem';
 
 
 function App() {
   return (
 
     <>
-    <div>
-      <button className='btn btn-primary'>Niraj</button>
- 
-    </div>
+      <AddName />
+      <AddList />
+      <AddMem />
     </>
   
   
